@@ -1,11 +1,11 @@
 {
   "private": false,
   "name": "@kiganix/music-catalog-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kiganix/kiganix-music-catalog.git"
+    "url": "https://github.com/kiganix/music-catalog.git"
   },
   "scripts": {
     "build": "run-p build:*",
