@@ -1,0 +1,18 @@
+{
+  "private": false,
+  "name": "@kiganix/music-catalog-tsconfig",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiganix/kiganix-music-catalog.git"
+  },
+  "files": [
+    "build/",
+    "run/",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

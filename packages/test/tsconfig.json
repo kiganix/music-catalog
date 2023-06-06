@@ -1,0 +1,3 @@
+{
+  "extends": "@kiganix/music-catalog-tsconfig/run"
+}

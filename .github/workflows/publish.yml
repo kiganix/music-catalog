@@ -1,0 +1,20 @@
+name: publish
+on:
+  release:
+    types:
+      - published
+permissions:
+  contents: read
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/setup
+        with:
+          NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}
+      - run: pnpm run build
+      - run: pnpm publish --recursive --no-git-checks --dry-run --force --report-summary
+      - run: test $(cat ./pnpm-publish-summary.json | jq --raw-output '.publishedPackages | length') -gt 0
+      - run: cat ./pnpm-publish-summary.json | jq --raw-output '.publishedPackages[].version' | while read -r VERSION; do test "v${VERSION}" = '${{ github.event.release.tag_name }}' || exit 1; done
+      - run: pnpm publish --recursive --no-git-checks --access public

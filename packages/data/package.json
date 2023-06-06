@@ -1,0 +1,42 @@
+{
+  "private": false,
+  "name": "@kiganix/music-catalog",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiganix/kiganix-music-catalog.git"
+  },
+  "scripts": {
+    "build": "run-p build:*",
+    "build:esm": "run-s build:esm:clean build:esm:esbuild",
+    "build:esm:clean": "rimraf ./dist/lib/esm/",
+    "build:esm:esbuild": "esbuild --format=esm --bundle --minify --sourcemap=linked --outfile=./dist/lib/esm/index.mjs ./src/index.ts",
+    "build:cjs": "run-s build:cjs:clean build:cjs:esbuild",
+    "build:cjs:clean": "rimraf ./dist/lib/cjs/",
+    "build:cjs:esbuild": "esbuild --format=cjs --bundle --minify --sourcemap=linked --outfile=./dist/lib/cjs/index.cjs ./src/index.ts",
+    "build:types": "run-s build:types:clean build:types:tsc",
+    "build:types:clean": "rimraf ./dist/types/",
+    "build:types:tsc": "tsc --project tsconfig.json",
+    "clean": "run-p build:esm:clean build:cjs:clean build:types:clean"
+  },
+  "files": [
+    "dist/lib/",
+    "dist/types/",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/types/ts5/index.d.ts",
+      "import": "./dist/lib/esm/index.mjs",
+      "require": "./dist/lib/cjs/index.cjs"
+    }
+  },
+  "types": "./dist/types/ts5/index.d.ts",
+  "dependencies": {
+    "@kiganix/music-catalog-schema": "workspace:*"
+  },
+  "devDependencies": {
+    "@kiganix/music-catalog-tsconfig": "workspace:*"
+  }
+}

@@ -1,0 +1,15 @@
+name: setup
+inputs:
+  NODE_AUTH_TOKEN:
+    required: true
+runs:
+  using: composite
+  steps:
+    - run: echo 'NODE_AUTH_TOKEN=${{ inputs.NODE_AUTH_TOKEN }}' >> $GITHUB_ENV
+      shell: bash
+    - uses: pnpm/action-setup@v2
+    - uses: actions/setup-node@v3
+      with:
+        cache: pnpm
+    - run: pnpm install
+      shell: bash

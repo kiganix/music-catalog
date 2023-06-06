@@ -1,0 +1,7 @@
+{
+  "extends": "@kiganix/music-catalog-tsconfig/build",
+  "compilerOptions": {
+    "declarationDir": "./dist/types/ts5/"
+  },
+  "include": ["./src/index.ts"]
+}

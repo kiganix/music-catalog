@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+
+/node_modules
+/packages/*/node_modules
+
+/packages/*/.turbo
+/packages/*/dist
+
+/LICENSE
+!/packages/*/LICENSE
+
+/pnpm-publish-summary.json
