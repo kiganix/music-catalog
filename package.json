@@ -8,12 +8,12 @@
     "clean": "turbo run clean"
   },
   "engines": {
-    "node": ">=16.14.0"
+    "node": ">=20.19.0"
   },
-  "packageManager": "pnpm@7.33.0",
+  "packageManager": "pnpm@10.8.0",
   "volta": {
-    "node": "16.14.2",
-    "pnpm": "7.33.0"
+    "node": "20.19.0",
+    "pnpm": "10.8.0"
   },
   "devDependencies": {
     "esbuild": "^0.17.19",
