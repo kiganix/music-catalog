@@ -568,10 +568,10 @@ const Releases: Release[] = [
     label: 'Interspersed Records',
     dsps: {
       spotify: { id: '6jTVSj03k6r7WjmCvvVR3e' },
-      appleMusic: { id:  },
-      youtube: { id:  },
-      amazon: { 'co.jp': { asin:  } },
-      lineMusic: { id:  },
+      appleMusic: { id: '1768010453' },
+      youtube: { id: 'OLAK5uy_m7Y8qXFGNHXKthReyRiht7Gh-x3nkyEVY' },
+      amazon: { 'co.jp': { asin: 'B0DGT3PM4C' } },
+      lineMusic: { id: 'mb0000000003dfa5d0' },
       qqMusic: { id:  },
       netEase: { id:  },
       google: {
@@ -585,11 +585,11 @@ const Releases: Release[] = [
         order: 0,
         isrc: ,
         titles: {
-          root: ,
+          root: ['Pale Evening'],
         },
         artists: [artists.Refeeld, ' & ', artists.Yodaka],
         dsps: {
-          tiktok: { id:  },
+          tiktok: { id: '7413843284332939281' },
           instagram: { id:  },
         },
       },
@@ -597,11 +597,11 @@ const Releases: Release[] = [
         order: 1,
         isrc: ,
         titles: {
-          root: ,
+          root: ['Sink the Flowers'],
         },
         artists: [artists.Refeeld, ' & ', artists.Yodaka],
         dsps: {
-          tiktok: { id:  },
+          tiktok: { id: '7413843284332955665' },
           instagram: { id:  },
         },
       },
@@ -609,11 +609,11 @@ const Releases: Release[] = [
         order: 2,
         isrc: ,
         titles: {
-          root: ,
+          root: ['Behind the Clouds'],
         },
         artists: [artists.Refeeld, ', ', artists.Yodaka],
         dsps: {
-          tiktok: { id:  },
+          tiktok: { id: '7413843284332972049' },
           instagram: { id:  },
         },
       },
@@ -621,11 +621,11 @@ const Releases: Release[] = [
         order: 3,
         isrc: ,
         titles: {
-          root: [],
+          root: ['Look for Footsteps'],
         },
         artists: [artists.Refeeld, ' & ', artists.Yodaka],
         dsps: {
-          tiktok: { id:  },
+          tiktok: { id: '7413843284332906513' },
           instagram: { id:  },
         },
       },
@@ -633,23 +633,11 @@ const Releases: Release[] = [
         order: 4,
         isrc: ,
         titles: {
-          root: ,
+          root: ['Blown by the Wind'],
         },
         artists: [artists.Refeeld, ' & ', artists.Yodaka],
         dsps: {
-          tiktok: { id:  },
-          instagram: { id:  },
-        },
-      },
-      {
-        order: 5,
-        isrc: ,
-        titles: {
-          root: ,
-        },
-        artists: [artists.Refeeld, ' & ', artists.Yodaka],
-        dsps: {
-          tiktok: { id:  },
+          tiktok: { id: '7413843284332922897' },
           instagram: { id:  },
         },
       },
