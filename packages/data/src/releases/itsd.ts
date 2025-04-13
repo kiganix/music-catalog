@@ -575,7 +575,7 @@ const Releases: Release[] = [
       qqMusic: { id:  },
       netEase: { id:  },
       google: {
-        kg: { id:  },
+        kg: { id: 'kg:/g/11lp8l9rcd' },
       },
       deezer: { id:  },
       pandora: { id:  },
