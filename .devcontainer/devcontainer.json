@@ -1,0 +1,25 @@
+{
+  "name": "@kiganix/music-catalog",
+  "build": {
+    "dockerfile": "./Dockerfile"
+  },
+  // https://github.com/devcontainers/images/blob/a3ade016ec898bb99b798ab556776490c861a0e9/src/base-ubuntu/.devcontainer/devcontainer.json#L9
+  "containerUser": "vscode",
+  "containerEnv": {
+    // https://github.com/devcontainers/images/blob/a3ade016ec898bb99b798ab556776490c861a0e9/src/base-ubuntu/.devcontainer/devcontainer.json#L9
+    "HOME": "/home/vscode"
+  },
+  // https://github.com/microsoft/vscode-remote-release/issues/4646#issuecomment-1796972801
+  "remoteUser": "root",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "esbenp.prettier-vscode",
+        "GitHub.vscode-github-actions",
+        "ms-azuretools.vscode-docker",
+        "redhat.vscode-yaml"
+      ]
+    }
+  }
+}

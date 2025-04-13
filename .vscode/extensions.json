@@ -1,7 +1,3 @@
 {
-  "recommendations": [
-    "editorconfig.editorconfig",
-    "esbenp.prettier-vscode",
-    "github.vscode-github-actions"
-  ]
+  "recommendations": ["ms-vscode-remote.remote-containers"]
 }

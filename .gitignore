@@ -11,3 +11,4 @@ Thumbs.db
 !/packages/*/LICENSE
 
 /pnpm-publish-summary.json
+/.pnpm-store/
