@@ -590,7 +590,7 @@ const Releases: Release[] = [
         artists: [artists.Refeeld, ' & ', artists.Yodaka],
         dsps: {
           tiktok: { id: '7413843284332939281' },
-          instagram: { id:  },
+          instagram: { id: '1054098289828620' },
         },
       },
       {
@@ -602,7 +602,7 @@ const Releases: Release[] = [
         artists: [artists.Refeeld, ' & ', artists.Yodaka],
         dsps: {
           tiktok: { id: '7413843284332955665' },
-          instagram: { id:  },
+          instagram: { id: '1550129159232318' },
         },
       },
       {
@@ -614,7 +614,7 @@ const Releases: Release[] = [
         artists: [artists.Refeeld, ', ', artists.Yodaka],
         dsps: {
           tiktok: { id: '7413843284332972049' },
-          instagram: { id:  },
+          instagram: { id: '8619269734820781' },
         },
       },
       {
@@ -626,7 +626,7 @@ const Releases: Release[] = [
         artists: [artists.Refeeld, ' & ', artists.Yodaka],
         dsps: {
           tiktok: { id: '7413843284332906513' },
-          instagram: { id:  },
+          instagram: { id: '1150919956613220' },
         },
       },
       {
@@ -638,7 +638,7 @@ const Releases: Release[] = [
         artists: [artists.Refeeld, ' & ', artists.Yodaka],
         dsps: {
           tiktok: { id: '7413843284332922897' },
-          instagram: { id:  },
+          instagram: { id: '2306770989664542' },
         },
       },
     ],
