@@ -558,6 +558,103 @@ const Releases: Release[] = [
       },
     ],
   },
+  {
+    id: 'ITSD-0011',
+    type: 'EP',
+    names: {
+      root: ['Endroll'],
+    },
+    artists: [artists.Refeeld, ', ', artists.Yodaka],
+    label: 'Interspersed Records',
+    dsps: {
+      spotify: { id:  },
+      appleMusic: { id:  },
+      youtube: { id:  },
+      amazon: { 'co.jp': { asin:  } },
+      lineMusic: { id:  },
+      qqMusic: { id:  },
+      netEase: { id:  },
+      google: {
+        kg: { id:  },
+      },
+      deezer: { id:  },
+      pandora: { id:  },
+    },
+    tracks: [
+      {
+        order: 0,
+        isrc: ,
+        titles: {
+          root: ,
+        },
+        artists: [artists.Refeeld, ' & ', artists.Yodaka],
+        dsps: {
+          tiktok: { id:  },
+          instagram: { id:  },
+        },
+      },
+      {
+        order: 1,
+        isrc: ,
+        titles: {
+          root: ,
+        },
+        artists: [artists.Refeeld, ' & ', artists.Yodaka],
+        dsps: {
+          tiktok: { id:  },
+          instagram: { id:  },
+        },
+      },
+      {
+        order: 2,
+        isrc: ,
+        titles: {
+          root: ,
+        },
+        artists: [artists.Refeeld, ', ', artists.Yodaka],
+        dsps: {
+          tiktok: { id:  },
+          instagram: { id:  },
+        },
+      },
+      {
+        order: 3,
+        isrc: ,
+        titles: {
+          root: [],
+        },
+        artists: [artists.Refeeld, ' & ', artists.Yodaka],
+        dsps: {
+          tiktok: { id:  },
+          instagram: { id:  },
+        },
+      },
+      {
+        order: 4,
+        isrc: ,
+        titles: {
+          root: ,
+        },
+        artists: [artists.Refeeld, ' & ', artists.Yodaka],
+        dsps: {
+          tiktok: { id:  },
+          instagram: { id:  },
+        },
+      },
+      {
+        order: 5,
+        isrc: ,
+        titles: {
+          root: ,
+        },
+        artists: [artists.Refeeld, ' & ', artists.Yodaka],
+        dsps: {
+          tiktok: { id:  },
+          instagram: { id:  },
+        },
+      },
+    ],
+  },
 ]
 
 export default Releases
