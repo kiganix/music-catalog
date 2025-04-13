@@ -567,7 +567,7 @@ const Releases: Release[] = [
     artists: [artists.Refeeld, ', ', artists.Yodaka],
     label: 'Interspersed Records',
     dsps: {
-      spotify: { id:  },
+      spotify: { id: '6jTVSj03k6r7WjmCvvVR3e' },
       appleMusic: { id:  },
       youtube: { id:  },
       amazon: { 'co.jp': { asin:  } },
