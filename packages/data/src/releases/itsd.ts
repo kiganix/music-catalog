@@ -572,8 +572,6 @@ const Releases: Release[] = [
       youtube: { id: 'OLAK5uy_m7Y8qXFGNHXKthReyRiht7Gh-x3nkyEVY' },
       amazon: { 'co.jp': { asin: 'B0DGT3PM4C' } },
       lineMusic: { id: 'mb0000000003dfa5d0' },
-      qqMusic: { id:  },
-      netEase: { id:  },
       google: {
         kg: { id: 'kg:/g/11lp8l9rcd' },
       },
@@ -583,7 +581,7 @@ const Releases: Release[] = [
     tracks: [
       {
         order: 0,
-        isrc: ,
+        isrc: 'JP92E2401014',
         titles: {
           root: ['Pale Evening'],
         },
@@ -595,7 +593,7 @@ const Releases: Release[] = [
       },
       {
         order: 1,
-        isrc: ,
+        isrc: '1tEtCANY5Vn1XAa6fevXPh',
         titles: {
           root: ['Sink the Flowers'],
         },
@@ -607,7 +605,7 @@ const Releases: Release[] = [
       },
       {
         order: 2,
-        isrc: ,
+        isrc: 'JP92E2401016',
         titles: {
           root: ['Behind the Clouds'],
         },
@@ -619,7 +617,7 @@ const Releases: Release[] = [
       },
       {
         order: 3,
-        isrc: ,
+        isrc: 'JP92E2401017',
         titles: {
           root: ['Look for Footsteps'],
         },
@@ -631,7 +629,7 @@ const Releases: Release[] = [
       },
       {
         order: 4,
-        isrc: ,
+        isrc: '1ZghQjSO5UAVafwHJjNkMm',
         titles: {
           root: ['Blown by the Wind'],
         },
