@@ -593,7 +593,7 @@ const Releases: Release[] = [
       },
       {
         order: 1,
-        isrc: '1tEtCANY5Vn1XAa6fevXPh',
+        isrc: 'JP92E2401015',
         titles: {
           root: ['Sink the Flowers'],
         },
@@ -629,7 +629,7 @@ const Releases: Release[] = [
       },
       {
         order: 4,
-        isrc: '1ZghQjSO5UAVafwHJjNkMm',
+        isrc: 'JP92E2401018',
         titles: {
           root: ['Blown by the Wind'],
         },
