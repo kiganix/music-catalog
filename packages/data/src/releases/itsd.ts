@@ -577,8 +577,8 @@ const Releases: Release[] = [
       google: {
         kg: { id: 'kg:/g/11lp8l9rcd' },
       },
-      deezer: { id:  },
-      pandora: { id:  },
+      deezer: { id: '642606881' },
+      pandora: { id: 'ALmdZPxJXgP3dgV' },
     },
     tracks: [
       {
