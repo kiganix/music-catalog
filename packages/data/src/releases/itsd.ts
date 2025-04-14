@@ -558,6 +558,89 @@ const Releases: Release[] = [
       },
     ],
   },
+  {
+    id: 'ITSD-0011',
+    type: 'EP',
+    names: {
+      root: ['Endroll'],
+    },
+    artists: [artists.Refeeld, ', ', artists.Yodaka],
+    label: 'Interspersed Records',
+    dsps: {
+      spotify: { id: '6jTVSj03k6r7WjmCvvVR3e' },
+      appleMusic: { id: '1768010453' },
+      youtube: { id: 'OLAK5uy_m7Y8qXFGNHXKthReyRiht7Gh-x3nkyEVY' },
+      amazon: { 'co.jp': { asin: 'B0DGT3PM4C' } },
+      lineMusic: { id: 'mb0000000003dfa5d0' },
+      google: {
+        kg: { id: 'kg:/g/11lp8l9rcd' },
+      },
+      deezer: { id: '642606881' },
+      pandora: { id: 'ALmdZPxJXgP3dgV' },
+    },
+    tracks: [
+      {
+        order: 0,
+        isrc: 'JP92E2401014',
+        titles: {
+          root: ['Pale Evening'],
+        },
+        artists: [artists.Refeeld, ' & ', artists.Yodaka],
+        dsps: {
+          tiktok: { id: '7413843284332939281' },
+          instagram: { id: '1054098289828620' },
+        },
+      },
+      {
+        order: 1,
+        isrc: 'JP92E2401015',
+        titles: {
+          root: ['Sink the Flowers'],
+        },
+        artists: [artists.Refeeld, ' & ', artists.Yodaka],
+        dsps: {
+          tiktok: { id: '7413843284332955665' },
+          instagram: { id: '1550129159232318' },
+        },
+      },
+      {
+        order: 2,
+        isrc: 'JP92E2401016',
+        titles: {
+          root: ['Behind the Clouds'],
+        },
+        artists: [artists.Refeeld, ' & ', artists.Yodaka],
+        dsps: {
+          tiktok: { id: '7413843284332972049' },
+          instagram: { id: '8619269734820781' },
+        },
+      },
+      {
+        order: 3,
+        isrc: 'JP92E2401017',
+        titles: {
+          root: ['Look for Footsteps'],
+        },
+        artists: [artists.Refeeld, ' & ', artists.Yodaka],
+        dsps: {
+          tiktok: { id: '7413843284332906513' },
+          instagram: { id: '1150919956613220' },
+        },
+      },
+      {
+        order: 4,
+        isrc: 'JP92E2401018',
+        titles: {
+          root: ['Blown by the Wind'],
+        },
+        artists: [artists.Refeeld, ' & ', artists.Yodaka],
+        dsps: {
+          tiktok: { id: '7413843284332922897' },
+          instagram: { id: '2306770989664542' },
+        },
+      },
+    ],
+  },
 ]
 
 export default Releases
