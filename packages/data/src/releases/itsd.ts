@@ -609,7 +609,7 @@ const Releases: Release[] = [
         titles: {
           root: ['Behind the Clouds'],
         },
-        artists: [artists.Refeeld, ', ', artists.Yodaka],
+        artists: [artists.Refeeld, ' & ', artists.Yodaka],
         dsps: {
           tiktok: { id: '7413843284332972049' },
           instagram: { id: '8619269734820781' },
